@@ -1,4 +1,4 @@
-// import { name } from "./const";
+import { name } from "./const";
 
-// console.log(name);
+console.log(name);
 console.log('hi');
