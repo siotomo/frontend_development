@@ -3,5 +3,6 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "shiomi <shiomi@glomouth.co.jp>",
+  "type": "module",
   "license": "MIT"
 }
