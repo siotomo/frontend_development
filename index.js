@@ -1,3 +1,3 @@
-import { name } from "./const";
+import { name } from "./const.js";
 
 console.log(name);
