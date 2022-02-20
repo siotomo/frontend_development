@@ -13,7 +13,10 @@ extends:
 env:
   browser: true
 rules:
+  quotes:
+    - "error"
+    - "single"
   semi:
     - "error"
     - "always"
-  no-console: 2
+  no-console: 1
