@@ -1,0 +1,17 @@
+root: true #ルートディレクトリの設定ファイルに記述
+parser: "@typescript-eslint/parser"
+parserOptions:
+  sourceType: "module"
+  ecmaVersion: 2020
+plugins:
+  - "@typescript-eslint"
+extends:
+  - eslint:recommended
+  - plugin:@typescript-eslint/eslint-recommended
+  - plugin:@typescript-eslint/recommended
+env:
+  browser: true
+rules:
+  semi:
+    - "error"
+    - "always"
