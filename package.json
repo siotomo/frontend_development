@@ -1,6 +1,5 @@
 {
-  "main": "index.js",
-  "type": "commonjs",
+  "type": "module",
   "devDependencies": {
     "typescript": "^4.5.5"
   }
