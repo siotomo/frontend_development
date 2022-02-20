@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ESNext",
-    "module": "CommonJS",
+    "module": "ES2020",
     "lib": ["es2020", "dom"],
     "jsx": "react",
     "outDir": "./dist",
