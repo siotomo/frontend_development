@@ -7,7 +7,21 @@
   <title>Document</title>
 </head>
 <body>
-<script type="module" src="./../dist/const.js"></script>
-<script type="module" src="./../dist/index.js"></script>
+  <div id="user_name">汐見</div>
+  <script
+    src="https://code.jquery.com/jquery-3.6.0.slim.js"
+    integrity="sha256-HwWONEZrpuoh951cQD1ov2HUK5zA5DwJ1DNUXaM6FsY="
+    crossorigin="anonymous">
+  </script>
+
+  <script>
+    $(document).ready(function(){
+      $("#user_name").hide();
+    });
+
+    console.log('テスト')
+    alert('test!!');
+  </script>
 </body>
 </html>
+
