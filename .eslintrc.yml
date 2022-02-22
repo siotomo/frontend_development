@@ -1,17 +1,6 @@
-root: true #ルートディレクトリの設定ファイルに記述
-# # 共有設定(react/ts)にて定義済み
-# parser: "@typescript-eslint/parser"
-# parserOptions:
-#   ecmaFeatures:
-#     jsx: true
-#   project: ./tsconfig.json
-#   sourceType: "module"
-# plugins:
-#   - "@typescript-eslint"
-#   - react
+root: true
 extends:
   - eslint:recommended
   - plugin:@typescript-eslint/recommended
   - plugin:react/recommended
-  # - plugin:@typescript-eslint/eslint-recommended #plugin:@typescript-eslint/recommendedにて定義済み
   - prettier
