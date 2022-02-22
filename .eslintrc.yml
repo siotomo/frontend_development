@@ -1,22 +1,17 @@
 root: true #ルートディレクトリの設定ファイルに記述
-parser: "@typescript-eslint/parser"
-parserOptions:
-  sourceType: "module"
-  ecmaVersion: 2020
-plugins:
-  - "@typescript-eslint"
+# # ts-eslintの共有設定にて定義済み
+# parser: "@typescript-eslint/parser"
+# parserOptions:
+#   project: ./tsconfig.json
+#   sourceType: "module"
+# plugins:
+#   - "@typescript-eslint"
 extends:
   - eslint:recommended
-  - plugin:@typescript-eslint/eslint-recommended
   - plugin:@typescript-eslint/recommended
+  # - plugin:@typescript-eslint/eslint-recommended #plugin:@typescript-eslint/recommendedにて定義済み
   - prettier
 env:
   browser: true
 rules:
-  quotes:
-    - "error"
-    - "single"
-  semi:
-    - "error"
-    - "always"
   no-console: 1
