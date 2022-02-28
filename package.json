@@ -25,5 +25,8 @@
     "format": "prettier --write \"src/\" --ext .ts,.tsx",
     "lint": "eslint --color \"src/\" --ext .ts,.tsx",
     "lint:fix": " prettier --write \"src/\" && eslint --color \"src/\" --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.21"
   }
 }
